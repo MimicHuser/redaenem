@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Rafael M Santos</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+<section>
+    <div class="form-container">
+        <figure>
+        <center><p class="texto1">LOGIN</p></center>
+        </figure>
+        <form action="#">
+            <div class="control">
+                
+                <input type="text" id="login" placeholder="Login">
+            </div>
+             <div class="control">
+                
+                <input type="password" id="senha" placeholder="Senha">
+             </div>
+             
+             <div class="control">
+                <input type="submit" onclick="logar(); return false">
+             </div>
+
+        </form>
+        
+    </div>
+
+    <script>
+        function logar() {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+    
+            if(login == "lindo" && senha == "lindo"){
+                location.href = "tde.html";
+            }
+
+            else{
+                alert('Login ou Senha incorretos')
+            }
+        }
+    </script>
+
+</section>
+</body>
+</html>

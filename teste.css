@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image:linear-gradient(to right, rgba(0, 255, 76, 0.600), rgba(0, 173, 216, 0.600)),  url(pexels-vlada-karpovich-4050300.jpg);
+    background-position:center center ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    }
+
+    .texto1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 3em;
+    }
+
+    section{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .form-container{
+        position: absolute;
+        top: 25%;
+        left:35%;
+        transform: translate(-50% -50%);
+        background: linear-gradient(to right, rgba(0, 255, 76, 0.600), rgba(0, 173, 216, 0.600));
+        width: 400px;
+        padding: 62px 40px;
+        border-radius: 20px;
+        margin-top: -10px;
+        
+
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 1em;
+        
+    }
+    .control input{
+        width: 100%;
+        display: block;
+        padding: 15px;
+        
+        color: #222;
+        border-radius: 0.3em;
+        border: none;
+        outline: nome;
+        margin: 1em 0;
+    }
+    .control input[type="submit"]{
+        background:rgb(3, 123, 228);;
+        color:#fff;
+        border-radius: 0.3em;
+        font-size: 1.25em;
+        opacity: .7;
+        transition: opacity .3s ease;
+    }
+    .control input[type="submit"]:hover{
+        opacity: 20;
+    }
+    .link{
+        text-align: center;
+    }
+    .link a{
+        text-decoration: nome;
+        color:#0349ab;
+        opacity: .7;
+        transition: ease .3s;
+    }
+    .link a:hover{
+        opacity: 1;
+    }
